@@ -163,11 +163,14 @@ Make sure to run all the applications.
 
 ```
 //header-mfe
+npm i
 npm start -- --port 9005
 
+npm i
 //dashboard-mfe
 npm start -- --port 9010
 
+npm i
 //lamisola-bank-app
 npm start
 ```
