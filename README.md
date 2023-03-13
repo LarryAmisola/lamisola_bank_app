@@ -7,15 +7,15 @@ A fictional banking application that demonstrates micro-frontend using Single-SP
 
 **Application name**:
 
-	- lamisola-bank-app ( root-config, port: 9000 )
-	- header-mfe ( port:  9005 )
-	- dashboard-mfe ( port: 9010 )
+- lamisola-bank-app ( root-config, port: 9000 )
+- header-mfe ( port:  9005 )
+- dashboard-mfe ( port: 9010 )
 
 **Definition of done**
 
-	- All MFEs are integrated in the main app. User can navigate from different pages.
-	- Header-mfe is consumable in different MFEs once it is needed.
-	- CSS is available through all MFEs.
+- All MFEs are integrated in the main app. User can navigate from different pages.
+- Header-mfe is consumable in different MFEs once it is needed.
+- CSS is available through all MFEs.
 
 ![Single-SPA Application](lamisola_bank.png)
 
