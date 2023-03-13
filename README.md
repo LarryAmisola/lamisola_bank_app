@@ -1,4 +1,4 @@
-#lamisola_bank
+# lamisola_bank
 
 A fictional banking application that demonstrates micro-frontend using Single-SPA framework.
 
@@ -15,7 +15,7 @@ A fictional banking application that demonstrates micro-frontend using Single-SP
 	- Header-mfe is consumable in different MFEs once it is needed.
 	- CSS is available through all MFEs.
 
-	![Single-SPA Application](lamisola_bank.png)
+![Single-SPA Application](lamisola_bank.png)
 
 ## lamisola-bank-app
 
