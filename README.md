@@ -37,6 +37,12 @@ npm start
 
 # How was it made?
 
+- [Create Single-SPA root config app](https://github.com/LarryAmisola/lamisola_bank_app#lamisola-bank-app)
+- [Create dashboard MFE app](https://github.com/LarryAmisola/lamisola_bank_app#dashboard-mfe)
+- [Create header MFE app ](https://github.com/LarryAmisola/lamisola_bank_app#header-mfe)
+- [Include header MFE app inside the dashboard MFE app ](https://github.com/LarryAmisola/lamisola_bank_app#consume-header-mfe-as-a-parcel-in-dashboard-mfe)
+- [Declare all Single-SPA application in the root-config app](https://github.com/LarryAmisola/lamisola_bank_app#integrate-all-mfes-in-the-main-application)
+
 ## lamisola-bank-app
 
 Create a new Single-SPA project. Type *create-single-spa* in the terminal.
