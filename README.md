@@ -5,7 +5,7 @@ A fictional banking application that demonstrates micro-frontend using Single-SP
 **Organization**: 
 	lamisola-banking-group
 
-**Application name**:
+**Application names**:
 
 - lamisola-bank-app ( root-config, port: 9000 )
 - header-mfe ( port:  9005 )
