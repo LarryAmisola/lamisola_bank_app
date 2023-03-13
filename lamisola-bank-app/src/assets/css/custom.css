@@ -1,0 +1,169 @@
+
+
+
+/* @import "reset.css";
+@import "list.css";
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+.small, small {
+  font-size: .875em;
+} */
+
+
+
+/* Light-green Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+--primary: #40513B;
+--primary-hover: #689f38;
+--primary-focus: rgba(124, 179, 66, 0.125);
+--primary-inverse: #FFF;
+--nav-background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Light-green Dark scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+:root:not([data-theme]) {
+--primary: #40513B;
+--primary-hover: #8bc34a;
+--primary-focus: rgba(124, 179, 66, 0.25);
+--primary-inverse: #FFF;
+}
+}
+
+/* Light-green Dark scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+--primary: #40513B;
+--primary-hover: #8bc34a;
+--primary-focus: rgba(124, 179, 66, 0.25);
+--primary-inverse: #FFF;
+}
+
+/* Light-green (Common styles) */
+:root {
+--form-element-active-border-color: var(--primary);
+--form-element-focus-color: var(--primary-focus);
+--nav-element-spacing-vertical: .5rem;
+--switch-color: var(--primary-inverse);
+--switch-checked-background-color: var(--primary);
+
+--spacing-company: 3em;
+}
+
+main > div > nav {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  backdrop-filter: saturate(75%) blur(20px);
+  padding: 0 var(--spacing);
+  /* background-color: var(--nav-background-color); */
+  background: rgba(57, 81, 68, 0.5);
+  box-shadow: var(--card-box-shadow);
+}
+
+main > div > nav a, main > div > nav button {
+  color: var(--primary);
+}
+
+nav button, nav button:active, nav button:focus, nav button:hover {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  background-color: transparent;
+}
+body > nav h1 {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  /* text-transform: uppercase; */
+}
+
+body > footer, body > header, body > main {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
+}
+
+.svg-icons {
+  width: 24px;
+  height: 24px;
+}
+
+nav button .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.btn-icon .icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+
+
+header {
+  padding: var(--spacing-company) 0;
+}
+
+
+body > main {
+  padding: 0;
+}
+
+nav + main {
+  padding-top: 4.8rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main article {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+article .grid {
+  grid-column-gap: var(--spacing-company);
+  grid-template-columns: auto 25%;
+}
+
+article {
+  padding: 1.5rem var(--block-spacing-horizontal);
+  background: rgba(170, 139, 86, .1);
+  box-shadow: none;
+}
+
+main > div > nav {
+  background: rgba(57, 81, 68, 50px);
+  padding-top: calc(var(--spacing) / 2);
+  padding-bottom: calc(var(--spacing) / 2);
+}
+main > div > nav > ul {
+  color: #FFF;
+}
+
+html {
+  background-image: url('../leaves.png');
+  background-color: #F0EBCE;
+  background-position: top right;
+  background-attachment: fixed;
+}
+
+article {
+  margin: var(--block-spacing-vertical) 0;
+}
+
+
