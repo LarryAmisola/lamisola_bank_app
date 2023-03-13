@@ -47,7 +47,6 @@ Type *npm start* in the terminal to boot up your single-spa root config.
 npm start
 ```
 
-
 ## dashboard-mfe
 
 Start creating single-spa application, by typing *create-single-spa* inside the terminal.
@@ -79,7 +78,6 @@ Run the application.
 ```
 npm start -- --port 9010
 ```
-
 
 ## header-mfe
 
@@ -113,7 +111,6 @@ Run the application
 npm start -- --port 9005
 ```
 
-
 ## Consume header-mfe as a parcel in dashboard-mfe
 
 Import Parcel in dashboard-mfe's root.component.js
@@ -131,7 +128,6 @@ export default function Root(props) {
 			<Parcel config={() => System.import("@lamisola-banking-group/header-mfe")} />
 	...
 ```
-
 
 ## Integrate all MFEs in the main application
 
