@@ -19,6 +19,24 @@ A fictional banking application that demonstrates micro-frontend using Single-SP
 
 ![Single-SPA Application](lamisola_bank.png)
 
+To run all the applications. Make sure all dependencies are installed.
+
+```
+//header-mfe
+npm i
+npm start -- --port 9005
+
+npm i
+//dashboard-mfe
+npm start -- --port 9010
+
+npm i
+//lamisola-bank-app
+npm start
+```
+
+# How was it made?
+
 ## lamisola-bank-app
 
 Create a new Single-SPA project. Type *create-single-spa* in the terminal.
@@ -158,20 +176,3 @@ Define all MFEs inside the index.ejs of lamisola-bank-app.
 </script>
 <% } %>
 ```
-
-Make sure to run all the applications.
-
-```
-//header-mfe
-npm i
-npm start -- --port 9005
-
-npm i
-//dashboard-mfe
-npm start -- --port 9010
-
-npm i
-//lamisola-bank-app
-npm start
-```
-
